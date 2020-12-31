@@ -1,0 +1,19 @@
+|xm2
+E => Q~0.OUTPUTSELECT
+E => Q~1.OUTPUTSELECT
+E => Q~2.OUTPUTSELECT
+E => Q~3.OUTPUTSELECT
+clk => Q[3]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[0]~reg0.CLK
+clr => Q[3]~reg0.ACLR
+clr => Q[2]~reg0.ACLR
+clr => Q[1]~reg0.ACLR
+clr => Q[0]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
